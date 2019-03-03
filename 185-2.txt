@@ -1,0 +1,32 @@
+﻿<TEI>
+	<teiHeader> 
+		<fileDesc>
+			<titleStmt>
+				<title> Что-то кавказское </title>
+			</titleStmt>
+			<respStmt>
+				<persName> Автор Повести </persName>
+				<resp> Я делала с документом вот что (создание TEI документа, выделение в тексте прямой речи/ персоналий)</resp>
+			</respStmt>
+		</fileDesc>
+		<profileDesc> #задаем список персонажей
+			<particDesc>
+				<listPerson type="historical"> # тип персонажа исторический
+					<person xml:id="01"> # айди - буквы, цифры, названия - на ваш выбор
+						<persName>Казим</persName> # выделяем персонажа
+					</person>
+					<person xml:id="02">
+						<rs>ами</rs>
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+	</teiHeader>
+	<text> #работа с самим текстом
+		<speech>
+			<said type="direct" corresp="01" aloud="true"> — <speech_verb semantic="action">Взбеги</speech_verb semantic="action"> на кровлю,<person xml:id="01"><persName>Касим</persName></person>; <speech_verb semantic="action">погляди</speech_verb semantic="action">, <speech_verb semantic="question">не катится</speech_verb semantic="question"> ли туман с гор Лезгистана. <speech_verb semantic="question">Не чернеет</speech_verb semantic="question"> ли море, <speech_verb semantic="question">не скачет</speech_verb semantic="question"> ли белогривый прибой через камни?</said> 
+			<said type="direct" who="01" aloud="true"> — Нет, <rs>ами</rs>! Горы <speech_verb semantic="state">облиты</speech_verb semantic="question"> божьей позолотой; море <speech_verb semantic="action">сверкает<speech_verb semantic="action"> будто зеркало. Флаг на крепости Нарын-Кале <speech_verb semantic="action">обнял</speech_verb semantic="action"> древко, как <speech_verb semantic="movement">обнимает<speech_verb semantic="movement"> чадра стан красавицы. Ни одна волна <speech_verb semantic="action">не рассыплется</speech_verb semantic="action"> жемчугом на берег; ни малейший ветерок <speech_verb semantic="action">не завьет</speech_verb semantic="action"> в кудри пыли по дороге. Смирно все на море, тихо все на земле, ясно на небе!</said>
+		</speech>
+	</text>
+	<text>
+		
